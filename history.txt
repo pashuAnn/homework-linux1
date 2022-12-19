@@ -1,0 +1,26 @@
+   0 cd /home
+   1 mkdir animals
+   2 mkdir animals/dog
+   3 mkdir animals/cat
+   4 mkdir animals/fish
+   5 mkdir -p /animals/dog/plato.txt
+   6 mkdir -p /animals/cat/garfild.txt
+   7 mkdir -p /animals/fish/nemo.txt
+   8 tree /home
+   9 tree /animals
+  10 clear
+  11 mkdir -p /tmp/adam.txt
+  12 mkdir -p /home/humans
+  13 cp -r /tmp/adam.txt /home/humans/adam.txt
+  14 mkdir -p /tmp/eVa.txt
+  15 mv /tmp/eVa.txt /home/humans/evA.txt
+  16 pwd /home
+  17 pwd
+  18 tree /home
+  19 history > history.txt
+  20 export_file /history.txt
+  21 history 
+  22 history > history.txt
+  23 export_file /history.txt
+  24 export_file /tmp/history.txt
+  25 history > history.txt 
